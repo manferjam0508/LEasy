@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/estudiando"
+    tools:context=".ActivityListar">
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:text="@string/txlistar"
+        android:textSize="24sp" />
+
+    <ListView
+        android:id="@+id/listaPoint"
+        android:layout_width="209dp"
+        android:layout_height="141dp"
+        android:layout_above="@+id/listaPoint"
+        android:layout_below="@+id/textView29"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginRight="151dp"
+        android:layout_marginBottom="-141dp"
+        tools:ignore="NotSibling" />
+
+    <LinearLayout
+        android:layout_width="407dp"
+        android:layout_height="131dp"
+        android:layout_below="@+id/_dynamic"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="vertical"
+        tools:ignore="UnknownId">
+
+        <Button
+            android:id="@+id/button28"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:background="@drawable/azulbrillante"
+            android:onClick="consultar"
+            android:text="@string/button26" />
+
+        <Button
+            android:id="@+id/button29"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/azulbrillante"
+            android:onClick="volver"
+            android:text="@string/button27" />
+    </LinearLayout>
+
+</RelativeLayout>

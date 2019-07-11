@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">LEasy</string>
+    <string name="button1">PRUEBA 1: COMPLETAR OPERACION</string>
+    <string name="button2">PRUEBA 2: SERIES</string>
+    <string name="button3">VOLVER AL MENU PRINCIPAL</string>
+    <string name="txt_view1_string">Menu Suma</string>
+    <string name="txt_view2_string">Completar las Sumas</string>
+    <string name="txv_num1_string">12</string>
+    <string name="txv_num2_string">27</string>
+    <string name="txv_num3_string">34</string>
+    <string name="txv_num4_string">45</string>
+    <string name="txv_num5_string">17</string>
+    <string name="txv_num6_string">58</string>
+    <string name="txv_num7_string">87</string>
+    <string name="button4">Terminar</string>
+    <string name="button5">Guardar Prueba</string>
+    <string name="button6">Volver al Menu Suma</string>
+    <string name="button7">Ayuda</string>
+    <string name="txt_view3_string">+</string>
+    <string name="txt_view4_string">=</string>
+    <string name="txt_view5_string">Resolver esta serie</string>
+    <string name="txv_num8_string">5</string>
+    <string name="txv_num9_string">+ 2</string>
+    <string name="txv_num10_string">+ 3</string>
+    <string name="txv_num11_string">+ 11</string>
+    <string name="txv_num12_string">+ 14</string>
+    <string name="txv_num13_string">+ 26</string>
+    <string name="txv_num14_string">+ 37</string>
+    <string name="txv_num15_string">+ 48</string>
+    <string name="txt_view6_string">Ayuda: Completar la operación</string>
+    <string name="text_descrip01string">Ésta actividad se trata de completar las operaciones matematicas
+                                         se acierta al agregar el numero correspondiente, cada operacion
+                                         correcta tiene un valor de 50 puntos, y se va sumando a medida que
+                                         acierte las operaciones, se puede guardar al punto donde lo dejas o
+                                         puede terminar la prueba. </string>
+    <string name="button8">Volver a la Actividad </string>
+    <string name="txt_view7_string">Ayuda: Series de sumas</string>
+    <string name="text_descrip02string"> La finalidad de ésta actividad es realizar sumas sucesivas, formando
+                                         lo que conocemos como series; tiene una secuencia de tipo zig zag en la
+                                         cual, aparece un indicador en donde nos sugiere sumar la cifra indicada; si
+                                         acierta con el resultado, puede continuar con la siguiente operacion hasta llegar
+                                         al resultado final de la serie; de lo contrario se devolverá a la casilla donde
+                                         quedó pendiente la operación. </string>
+    <string name="button9">Volver a la Actividad </string>
+    <string name="abrir_dialogo">abre dialogo</string>
+    <string name="terminar">terminar actividad</string>
+    <string name="terminelo">Desea terminar esta prueba?</string>
+    <string name="aceptar">aceptar</string>
+    <string name="cancelar">cancelar</string>
+    <string name="button10"> = </string>
+    <string name="button11"> = </string>
+    <string name="button12"> = </string>
+    <string name="button13"> = </string>
+    <string name="ok1"> Ok </string>
+    <string name="ok2"> Ok </string>
+    <string name="ok3"> Ok </string>
+    <string name="ok4"> Ok </string>
+    <string name="ok5"> Ok </string>
+    <string name="ok6"> Ok </string>
+    <string name="ok7"> Ok </string>
+    <string name="puntaje"> Puntaje </string>
+    <string name="button20">Consultar Puntajes </string>
+    <string name="txconsulta">Consulta de registros de puntaje</string>
+    <string name="edcode">Codigo</string>
+    <string name="edname">Nombre</string>
+    <string name="edprueba">Prueba </string>
+    <string name="edfecha">Fecha </string>
+    <string name="edpuntaje">Puntaje </string>
+    <string name="button22">Buscar Registro</string>
+    <string name="button23">Eliminar Registro </string>
+    <string name="button24">Volver al Menu suma</string>
+    <string name="button25">Listar</string>
+    <string name="txlistar">Lista de puntajes guardados</string>
+    <string name="button26">Volver a Consultar</string>
+    <string name="button27">Volver al Menu Suma</string>
+    <string name="button28">Guardar Registro</string>
+
+
+</resources>

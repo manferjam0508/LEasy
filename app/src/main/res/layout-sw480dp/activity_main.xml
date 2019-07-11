@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_escolar"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginLeft="141dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/txt_view1_string"
+        android:textColor="#3F51B5"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/alegreya_sans_sc" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="262dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/textView1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="31dp"
+        android:background="@drawable/azulbrillante"
+        android:onClick="completar"
+        android:text="@string/button1" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="149dp"
+        android:layout_height="51dp"
+        android:layout_below="@+id/button1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginRight="85dp"
+        android:background="@drawable/azulbrillante"
+        android:onClick="series"
+        android:text="@string/button2" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="219dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginLeft="117dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginRight="75dp"
+        android:background="@drawable/azulbrillante"
+        android:onClick="consultar"
+        android:text="@string/button20" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="202dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/button3"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
+        android:background="@drawable/azulbrillante"
+        android:onClick="regrese"
+        android:text="@string/button3" />
+
+</RelativeLayout>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/estudiando"
+    tools:context=".ActivityConsulta">
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:text="@string/txconsulta"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
+        android:layout_marginBottom="115dp"
+        android:layout_toStartOf="@+id/button31"
+        android:layout_toLeftOf="@+id/button31"
+        android:background="@drawable/azulbrillante"
+        android:onClick="Registrar"
+        android:text="@string/button28" />
+
+    <Button
+        android:id="@+id/button31"
+        android:layout_width="105dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+        android:layout_marginBottom="112dp"
+        android:background="@drawable/azulbrillante"
+        android:onClick="buscar"
+        android:text="@string/button22" />
+
+    <Button
+        android:id="@+id/button32"
+        android:layout_width="156dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginRight="63dp"
+        android:layout_marginBottom="31dp"
+        android:layout_toStartOf="@+id/button33"
+        android:layout_toLeftOf="@+id/button33"
+        android:background="@drawable/azulbrillante"
+        android:onClick="Eliminar"
+        android:text="@string/button23" />
+
+    <Button
+        android:id="@+id/button33"
+        android:layout_width="106dp"
+        android:layout_height="49dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/azulbrillante"
+        android:onClick="listar"
+        android:text="@string/button25" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="331dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="104dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/tx_codigo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="29dp"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="116dp"
+            android:layout_marginRight="116dp"
+            android:ems="10"
+            android:hint="@string/edcode"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/tx_nombre"
+            android:layout_width="312dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="27dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="21dp"
+            android:layout_marginRight="21dp"
+            android:ems="10"
+            android:hint="@string/edname"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/tx_prueba"
+            android:layout_width="312dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="22dp"
+            android:layout_marginRight="22dp"
+            android:ems="10"
+            android:hint="@string/edprueba"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/tx_fecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="27dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="118dp"
+            android:layout_marginRight="118dp"
+            android:ems="10"
+            android:hint="@string/edfecha"
+            android:inputType="date" />
+
+        <EditText
+            android:id="@+id/tx_puntos"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="258dp"
+            android:layout_marginRight="258dp"
+            android:layout_marginBottom="156dp"
+            android:ems="10"
+            android:hint="@string/edpuntaje"
+            android:inputType="number" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/utiles"
+    tools:context=".Activity_help2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="335dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="42dp"
+        android:text="@string/txt_view7_string"
+        android:textColor="#283593"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText13"
+        android:layout_width="334dp"
+        android:layout_height="299dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="118dp"
+        android:background="#E0DD69"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/text_descrip02string"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="284dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginBottom="152dp"
+        android:background="@drawable/azulbrillante"
+        android:onClick="series"
+        android:text="@string/button9" />
+</RelativeLayout>

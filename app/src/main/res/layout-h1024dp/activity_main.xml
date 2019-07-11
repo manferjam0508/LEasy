@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_escolar"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="233dp"
+        android:layout_marginLeft="233dp"
+        android:layout_marginTop="106dp"
+        android:text="@string/txt_view1_string"
+        android:textColor="#E65100"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/alegreya_sans_sc" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="407dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/textView1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="73dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginRight="90dp"
+        android:background="@drawable/azulbrillante"
+        android:onClick="completar"
+        android:text="@string/button1"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="213dp"
+        android:layout_height="63dp"
+        android:layout_below="@+id/button1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="180dp"
+        android:layout_marginRight="180dp"
+        android:background="@drawable/azulbrillante"
+        android:onClick="series"
+        android:text="@string/button2"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginRight="109dp"
+        android:background="@drawable/azulbrillante"
+        android:onClick="consultar"
+        android:text="@string/button20"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="358dp"
+        android:layout_height="62dp"
+        android:layout_below="@+id/button3"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginRight="110dp"
+        android:background="@drawable/azulbrillante"
+        android:onClick="regrese"
+        android:text="@string/button3"
+        android:textSize="24sp" />
+
+</RelativeLayout>

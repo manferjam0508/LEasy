@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/utiles"
+    tools:context=".Activity_help2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginLeft="134dp"
+        android:layout_marginTop="196dp"
+        android:text="@string/txt_view7_string"
+        android:textColor="#E65100"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/alegreya_sans_sc" />
+
+    <EditText
+        android:id="@+id/editText13"
+        android:layout_width="463dp"
+        android:layout_height="372dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="73dp"
+        android:layout_marginLeft="73dp"
+        android:layout_marginTop="328dp"
+        android:background="#E0DD69"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/text_descrip02string"
+        android:inputType="textMultiLine"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="284dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="177dp"
+        android:layout_marginLeft="177dp"
+        android:layout_marginBottom="202dp"
+        android:background="@drawable/azulbrillante"
+        android:onClick="series"
+        android:text="@string/button9"
+        android:textSize="24sp" />
+</RelativeLayout>
